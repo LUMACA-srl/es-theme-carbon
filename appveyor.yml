@@ -1,8 +1,8 @@
 version: 1.0.{build}
 build: off
 artifacts:
-- path: '\'
-  name: master.zip
+- path: es-theme-carbon\
+  name: master
 deploy:
 - provider: GitHub
   tag: continuous
