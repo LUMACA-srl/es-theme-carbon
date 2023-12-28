@@ -1,7 +1,7 @@
 version: 1.0.{build}
 build: off
 artifacts:
-   - patch: es-theme-carbon
+   - path: es-theme-carbon
     name: master
     type: zip
 deploy:
