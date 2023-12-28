@@ -1,8 +1,8 @@
 version: 1.0.{build}
 build: off
 artifacts:
-   - path: es-theme-carbon
-    name: master
+- path: es-theme-carbon
+  name: master
     type: zip
 deploy:
 - provider: GitHub
