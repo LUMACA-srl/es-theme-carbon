@@ -1,0 +1,9 @@
+version: 1.0.{build}
+artifacts:
+- path: master.zip
+deploy:
+- provider: GitHub
+  tag: continuous
+  release: continuous
+  auth_token:
+    secure: Jzp2SBYLkIC3plNxmxAhQNW3VLlgIWzjAIvDRZ2xgWgMN5cKZe8XuJqbrQDYsGSo
