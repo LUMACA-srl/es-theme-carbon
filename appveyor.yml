@@ -1,7 +1,6 @@
 version: 1.0.{build}
 build: off
 artifacts:
-  - path: C:\projects\es-theme-carbon
     name: master
     type: zip
 deploy:
