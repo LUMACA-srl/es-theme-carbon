@@ -1,6 +1,7 @@
 version: 1.0.{build}
 build: off
 artifacts:
+   - patch:
     name: master
     type: zip
 deploy:
