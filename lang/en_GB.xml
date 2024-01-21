@@ -21,6 +21,13 @@
     <violet>Violet</violet>
     <orange>Orange</orange>
     <gray>Grey</gray>
+    <!-- Common views  -->
+    <tilesViewName>Miniatures</tilesViewName>
+    <basicGridName>Grid</basicGridName>
+    <gameCarouselViewName>Carousel of boxes</gameCarouselViewName> <!-- NEED REVIEW -->
+    <carouselViewName>Carousel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Region -->
     <subset.region>Region</subset.region>    
     <!-- Subset option for System extended informations -->
