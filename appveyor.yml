@@ -1,9 +1,9 @@
 version: 1.0.{build}
 clone_folder: c:\src\es-theme-carbon
 build_script:
-- 7z a es-theme-carbon.zip C:\src\es-theme-carbon
+- 7z a master.zip C:\src\es-theme-carbon
 artifacts:
-- path: es-theme-carbon.zip
+- path: master.zip
 deploy:
 - provider: GitHub
   tag: continuous
