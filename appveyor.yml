@@ -1,6 +1,7 @@
 version: 1.0.{build}
 clone_folder: c:\src\es-theme-carbon
-build: off 
+build_script:
+- 7z a es-theme-carbon.zip C:\src\es-theme-carbon
 artifacts:
 - path: '*.zip'
   name: GitHub
