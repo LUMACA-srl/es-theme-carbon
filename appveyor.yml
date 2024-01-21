@@ -1,5 +1,7 @@
 version: 1.0.{build}
 build: off
+- copy * .
+- 7z a es-theme-carbon.zip
 artifacts:
 - path: es-theme-carbon
   name: master
